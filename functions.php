@@ -38,3 +38,5 @@ function pilot_assets(){
   wp_enqueue_script('pilot_js', scripts . 'all.js', ['jquery'], null, true);
 }
 add_action('wp_enqueue_scripts', 'pilot_assets');
+
+add_filter( 'attachments_default_instance', '__return_false' ); // disable the default instance of attachments plugin
