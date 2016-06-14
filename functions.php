@@ -13,7 +13,7 @@ if(!function_exists('pilot_setup')){
     require_once('wp_bootstrap_navwalker.php');
 
     // add all functionality in library folder and use the router file as a reference file
-    require_once('library/router.php');
+    require_once( 'library/dictionary.php' );
 
     // add support for post formats (NB: may be moved to library for a modular setup - future case)
     add_theme_support('post_formats', ['aside']);
@@ -24,7 +24,8 @@ if(!function_exists('pilot_setup')){
 
     // Register navigation menus
     register_nav_menus([
-      'primary' => __('Primary Navigation', 'pilot')
+      'primary' => __('Primary Navigation', 'pilot'),
+      'footer' => __('Footer Navigation', 'pilot')
     ]);
 
   }

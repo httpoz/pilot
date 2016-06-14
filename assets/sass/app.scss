@@ -1,6 +1,14 @@
 @import "bower_components/bootstrap-sass/assets/stylesheets/bootstrap";
 
 // general rules
+html{
+  font-size: 62.5%;
+}
+
+body{
+  font-size: 1.6rem;
+}
+
 img{
   max-width: 100%;
   height: auto;
