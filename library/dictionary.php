@@ -8,7 +8,9 @@ include( 'PilotDefaults/adminScripts.php' ); // BootStrap Admin StyleSheet
 // Short Codes
 include('PilotDefaults/ShortCodes/disableAutoP.php'); // Disables wpautop in shortcodes
 include('PilotDefaults/ShortCodes/bootstrapGrid.php'); // Shortcodes for Bootstrap Grids in the editor
-include('PilotDefaults/ShortCodes/linkButton.php'); // Shortcodes for Link Buttons in the editor
+include('PilotDefaults/ShortCodes/linkButton.php'); // Shortcode for Link Buttons in the editor
+include('PilotDefaults/ShortCodes/anchorTag.php'); // Shortcode for Anchor Tags in the editor
+include('PilotDefaults/ShortCodes/tables.php'); // Shortcode for Tables in the editor
 
 // Custom Post Types
 include('CustomPostTypes/PilotPostType/PilotPostType.php');
