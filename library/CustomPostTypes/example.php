@@ -1,6 +1,6 @@
 <?php
 
-use Pilot;
+namespace Pilot;
 
 $example = new PilotPostType('example');
 $example->create( [
@@ -13,4 +13,4 @@ $example->categories([
     'label' => 'Examples Categories'
 ]);
 
-include 'example-meta';
+include 'example-meta.php';
