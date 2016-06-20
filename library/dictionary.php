@@ -5,6 +5,9 @@
 // Admin Scripts
 include( 'PilotDefaults/adminScripts.php' ); // BootStrap Admin StyleSheet
 
+// Helper Functions
+include( 'PilotDefaults/Helpers/pilotImage.php' ); // Grab first image
+
 // Short Codes
 include('PilotDefaults/ShortCodes/disableAutoP.php'); // Disables wpautop in shortcodes
 include('PilotDefaults/ShortCodes/bootstrapGrid.php'); // Shortcodes for Bootstrap Grids in the editor
