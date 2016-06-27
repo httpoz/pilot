@@ -21,7 +21,7 @@ class PilotPostType
                 'singular_name' => _x(ucfirst($options['singular']), 'post type singular name', 'pilot'),
                 'menu_name' => _x(ucfirst($options['plural']), 'admin menu', 'pilot'),
                 'name_admin_bar' => _x(ucfirst($options['plural']), 'add new on admin bar', 'pilot'),
-                'add_new' => _x('Add New', $options['post_type'], 'pilot'),
+                'add_new' => _x('Add New', $this->post_type, 'pilot'),
                 'add_new_item' => __('Add ' . ucfirst($options['singular']), 'pilot'),
                 'new_item' => __('New ' . ucfirst($options['singular']), 'pilot'),
                 'edit_item' => __('Edit ' . ucfirst($options['singular']), 'pilot'),
