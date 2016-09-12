@@ -8,7 +8,7 @@ function anchor_shortcode( $attributes ) {
 		'id' => 'javascript:void(0)',
 	], $attributes );
 
-	return '<a href="#' . $atts['id'] . '"></a>';
+	return '<div id="' . $atts['id'] . '"></div>';
 }
 
 add_shortcode( 'anchor', 'anchor_shortcode' );
