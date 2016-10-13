@@ -19,10 +19,10 @@
   "dependencies": {
     "bootstrap-sass": "^3.3.7",
     "gulp": "^3.9.1",
-    "jquery": "^3.1.0",
-    "laravel-elixir": "^6.0.0-9",
-    "laravel-elixir-vue": "^0.1.4",
-    "laravel-elixir-webpack-official": "^1.0.2",
-    "lodash": "^4.14.0"
+    "jquery": "^3.1.1",
+    "laravel-elixir": "^6.0.0-11",
+    "laravel-elixir-vue": "^0.1.8",
+    "laravel-elixir-webpack-official": "^1.0.8",
+    "lodash": "^4.16.4"
   }
 }

@@ -2,8 +2,6 @@ const elixir = require('laravel-elixir');
 
 require('laravel-elixir-vue');
 
-elixir.config.assetsPath = 'assets';
-
 elixir(mix => {
     // watch the sass files and compile them
     mix.sass('app.scss')
