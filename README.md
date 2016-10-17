@@ -16,7 +16,8 @@ This theme is a very easy 3 step set up.
 
 ### Composer
 Run this command inside your terminal to add the package into your project.
-  composer require httpoz/pilot
+
+    composer require httpoz/pilot
 
 ### Dependencies.
 1. Run `bower install` to pull the `wp-bootstrap-navwalker` into the project.
