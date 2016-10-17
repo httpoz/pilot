@@ -12,5 +12,6 @@
       "name": "Oscar Mwanandimai",
       "email": "oscar.mwana@gmail.com"
     }
-  ]
+  ],
+  "minimum-stability": "dev"
 }
