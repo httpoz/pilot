@@ -1,9 +1,9 @@
 {
   "name": "httpoz/pilot",
-  "description": "Blank WordPress Starter theme for a fluid workflow.",
-  "keywords": ["wordpress", "theme", "pilot"],
+  "type": "wordpress-theme",
   "license": "MIT",
-  "type": "project",
+  "description": "Blank WordPress Starter theme for a fluid workflow.",
+  "keywords": ["wordpress", "theme"],
   "require": {
     "php": ">=5.6.4"
   },
