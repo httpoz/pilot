@@ -34,16 +34,16 @@ class PilotPostType
             );
             $args = array(
                 'labels' => $labels,
-                'has_archive' => $options['has_archive'] ?: true,
-                'public' => $options['public'] ?: true,
-                'publicly_queryable' => $options['publicly_queryable'] ?: true,
-                'capability_type' => $options['capability_type'] ?: 'post',
-                'menu_icon' => $options['menu_icon'] ?: 'dashicons-menu',
-                'query_var' => $options['query_var'] ?: true,
-                'show_in_menu' => $options['show_in_menu'] ?: true,
-                'show_ui' => $options['show_ui'] ?: true,
-                'supports' => $options['supports'] ?: ['title', 'editor', 'thumbnail'],
-                'exclude_from_search' => $options['exclude_from_search'] ?: false,
+                'has_archive' => ($options['has_archive']) ? $options['has_archive'] : true,
+                'public' => ($options['public']) ? $options['public'] : true,
+                'publicly_queryable' => ($options['publicly_queryable']) ? $options['publicly_queryable'] : true,
+                'capability_type' => ($options['capability_type']) ? $options['capability_type'] : 'post',
+                'menu_icon' => ($options['menu_icon']) ? $options['menu_icon'] : 'dashicons-menu',
+                'query_var' => ($options['query_var']) ? $options['query_var'] : true,
+                'show_in_menu' => ($options['show_in_menu']) ? $options['show_in_menu'] : true,
+                'show_ui' => ($options['show_ui']) ? $options['show_ui'] : true,
+                'supports' => ($options['supports']) ? $options['supports'] : ['title', 'editor', 'thumbnail'],
+                'exclude_from_search' => ($options['exclude_from_search']) ? $options['exclude_from_search'] : false,
             );
             register_post_type($this->post_type, $args);
             flush_rewrite_rules();

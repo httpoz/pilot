@@ -1,10 +1,6 @@
 <?php
 
 // Define Constants
-if (file_exists($composer = __DIR__ . '/vendor/autoload.php')) {
-    require_once $composer;
-}
-
 define('theme_root', get_stylesheet_directory_uri());
 define('images', theme_root . '/public/img/');
 define('scripts', theme_root . '/public/js/');
