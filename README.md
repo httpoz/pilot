@@ -1,13 +1,8 @@
 # pilot
-[![Total Downloads](https://poser.pugx.org/httpoz/pilot/d/total.svg)](https://packagist.org/packages/httpoz/pilot)
-[![Latest Stable Version](https://poser.pugx.org/httpoz/pilot/v/stable.svg)](https://packagist.org/packages/httpoz/pilot)
-[![Latest Unstable Version](https://poser.pugx.org/httpoz/pilot/v/unstable.svg)](https://packagist.org/packages/httpoz/pilot)
-[![License](https://poser.pugx.org/httpoz/pilot/license.svg)](https://packagist.org/packages/httpoz/pilot)
-
 WordPress + Bootstrap Starter theme for a fluid workflow.
 
 - [Installation](#installation)
-    - [Composer](#composer)
+    - [Download](#download)
     - [Dependencies](#dependencies)
     - [Initiate](#initiate)
 
@@ -15,9 +10,7 @@ WordPress + Bootstrap Starter theme for a fluid workflow.
 This theme is a very easy 3 step set up.
 
 ### Composer
-Run this command inside your terminal to add the package into your project.
-
-    composer require httpoz/pilot
+Clone this repository into your theme directory.
 
 ### Dependencies.
 1. Run `bower install` to pull the `wp-bootstrap-navwalker` into the project.
