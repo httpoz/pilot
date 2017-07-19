@@ -9,17 +9,17 @@ WordPress + Bootstrap Starter theme for a fluid workflow.
 ## Installation
 This theme is a very easy 3 step set up.
 
-### Composer
-Clone this repository into your theme directory.
+### Download
+Downloap a zip file from the repo
 
-### Dependencies.
-1. Run `bower install` to pull the `wp-bootstrap-navwalker` into the project.
-2. Run `npm install` to setup gulp and laravel-elixir in your project.
+### Install Dependencies.
+Run `npm install` to setup laravel-mix in your project.
 
-### Initiate
-1. Run `gulp default` this will load the `wp-bootstrap-navwalker` into the theme directory.
-2. Remove `wp-bootstrap-navwalker` from the `.gitignore` file.
-3. Afterwards you can run `gulp watch` as you work.
+### Develop
+1. Run `npm run watch-poll` in development
+
+### Deploy
+2. Run `npm run development` before you deploy your theme
 
 
 
